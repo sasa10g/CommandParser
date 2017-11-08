@@ -25,8 +25,18 @@ namespace CommandParser
             this.error = error;
         }
 
-
         public override String ToString(){
+
+            //overwrite direction letter
+            if (direction.Equals("l"))
+                direction = "left";
+            else if (direction.Equals("r"))
+                direction = "right";
+            else if (direction.Equals("u"))
+                direction = "up";
+            else if (direction.Equals("d"))
+                direction = "down";
+
             return "Direction: " + direction + ", Distance: " + distance.ToString() + ".";
         }
     }

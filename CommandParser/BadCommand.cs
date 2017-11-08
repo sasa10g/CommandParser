@@ -22,6 +22,5 @@ namespace CommandParser
             this.command = command;
             this.message = message;
         }
-
     }
 }

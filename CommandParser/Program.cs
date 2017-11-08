@@ -23,8 +23,6 @@ namespace CommandParser
             commandS.Add("lx20,r32,d1,tu12");
 
             parser.parsering(commandS);
-
-                
             //Console.WriteLine("Test");
             //Console.ReadLine();
         }

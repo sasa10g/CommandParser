@@ -81,7 +81,5 @@ namespace CommandParser
                 listBC.Add(badCommand);
             }
         }
-
-    
     }
 }

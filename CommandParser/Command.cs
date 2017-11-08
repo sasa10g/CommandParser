@@ -27,7 +27,6 @@ namespace CommandParser
 
 
         public override String ToString(){
-            
             return "Direction: " + direction + ", Distance: " + distance.ToString() + ".";
         }
     }
